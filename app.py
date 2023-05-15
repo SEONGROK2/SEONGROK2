@@ -38,6 +38,8 @@ def movie_post():
     db.teammate.insert_one(doc)
     return jsonify({'msg':'기록하기 완료!'})
 
+#     조성록 바보!
+
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5000, debug=True)
              
